@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="popup.js"></script> 
+	<link type="text/css"  rel="stylesheet" href="bootstrap.min.css"/>
+</head>
+<style type="text/css">
+	
+body{
+	margin: 15px;
+	width:400px;
+
+}
+h1{
+	color: green;
+}
+#slct{
+	margin-bottom: 5px;
+}
+
+
+</style>
+
+<title>Automate the Boring stuff</title>
+<body>
+	<div class="holder">
+		 <select id="slct" class="browser-default custom-select">  
+                <option selected>Select below flows to Automate</option> 
+                <option value="1">Fill Booking Behavior</option> 
+                <option value="2">Fill a random form</option> 
+                <option value="3">Checkout Process</option> 
+               
+            </select> 
+
+            <div>
+            	<button id="exec" type="button" class="btn btn-primary">RUN</button>
+            </div>
+	</div>
+</body>
+
+</html>
