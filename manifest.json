@@ -3,12 +3,12 @@
     "version": "1.0",
     "description": "Automate the boring stuff",
     "background": {
-      "scripts": ["background.js"],
+      "scripts": ["js/background.js"],
       "persistent": false
     },
     "content_scripts": [{
         "matches":["http://*/*","https://*/*"],
-        "js": ["content.js","jquery-vext.js"]
+        "js": ["js/content.js","js/jquery-vext.js"]
     }],
     "browser_action": {
         "default_popup":"popup.html"
