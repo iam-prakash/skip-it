@@ -32,4 +32,11 @@ function send_action(){
 function documentEvents(){
   var run = document.getElementById("exec");
   document.getElementById("exec").addEventListener("click", send_action);
+
+/*Inject js in case if you need to do DOM operation in a sub-doc
+  chrome.tabs.executeScript({
+    "file": "js/iframeInject.js",
+    "allFrames" : true  
+    });
 }
+*/
